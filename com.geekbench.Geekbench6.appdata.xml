@@ -3,6 +3,7 @@
     <id>com.geekbench.Geekbench6</id>
     <name>Geekbench 6</name>
     <summary>Cross-platform system benchmark</summary>
+    <developer_name>Primate Labs Inc.</developer_name>
     <url type="homepage">https://www.geekbench.com/</url>
     <metadata_license>CC0-1.0</metadata_license>
     <project_license>LicenseRef-proprietary</project_license>
@@ -19,14 +20,19 @@
     <content_rating type="oars-1.1" />
     <screenshots>
         <screenshot type="default">
-            <caption>Running the vulkan benchmark</caption>
-            <image type="source">https://raw.githubusercontent.com/razzeee/com.geekbench.Geekbench6/f378d2e1432c5fece2ec9ef73b631c31f0328e8f/screenshot1.png</image>
+            <caption>Running the benchmark</caption>
+            <image type="source">https://raw.githubusercontent.com/flathub/com.geekbench.Geekbench6/1bf8a67509da0e98aacbf53b3642cf68e81ede01/screenshot1.png</image>
         </screenshot>
     </screenshots>
     <releases>
+        <release version="6.2.2" date="2023-11-21">
+        </release>
         <release version="6.1.0" date="2023-06-07">
         </release>
     </releases>
+    <provides>
+        <binary>geekbench6</binary>
+    </provides>
     <categories>
         <category>System</category>
     </categories>
