@@ -17,6 +17,7 @@
         Needs to be run on the command line.
         </p>
     </description>
+    <icon type="stock">com.geekbench.Geekbench6</icon>
     <content_rating type="oars-1.1" />
     <screenshots>
         <screenshot type="default">
