@@ -36,6 +36,10 @@ modules:
         sha256: 43833053774816178a292331cc205923c5e8168ada378d41b9119532125a50ac
         size: 228079249
         only-arches: [x86_64]
+        x-checker-data:
+          type: rotating-url
+          url: https://www.geekbench.com/download/linux/
+          pattern: https://cdn.geekbench.com/Geekbench-([0-9.]+)-Linux.tar.gz
       - type: extra-data
         filename: Geekbench-Linux.tar.gz
         url: https://cdn.geekbench.com/Geekbench-6.4.0-LinuxARMPreview.tar.gz
