@@ -37,9 +37,10 @@ modules:
         size: 228079249
         only-arches: [x86_64]
         x-checker-data:
-          type: rotating-url
+          type: html
           url: https://www.geekbench.com/download/linux/
-          pattern: https://cdn.geekbench.com/Geekbench-([0-9.]+)-Linux.tar.gz
+          vesion-pattern: You are downloading Geekbench ([0-9.]+) for Linux
+          url-pattern: https://cdn.geekbench.com/Geekbench-$version-Linux.tar.gz
       - type: extra-data
         filename: Geekbench-Linux.tar.gz
         url: https://cdn.geekbench.com/Geekbench-6.4.0-LinuxARMPreview.tar.gz
