@@ -1,6 +1,6 @@
 app-id: com.geekbench.Geekbench6
 runtime: org.freedesktop.Platform
-runtime-version: "24.08"
+runtime-version: "25.08"
 sdk: org.freedesktop.Sdk
 command: geekbench6
 separate-locales: false
