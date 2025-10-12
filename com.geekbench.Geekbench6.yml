@@ -39,7 +39,7 @@ modules:
         x-checker-data:
           type: html
           url: https://www.geekbench.com/download/linux/
-          vesion-pattern: You are downloading Geekbench ([0-9.]+) for Linux
+          version-pattern: You are downloading Geekbench ([0-9.]+) for Linux
           url-pattern: https://cdn.geekbench.com/Geekbench-$version-Linux.tar.gz
       - type: extra-data
         filename: Geekbench-Linux.tar.gz
