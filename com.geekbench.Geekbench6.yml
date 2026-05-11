@@ -32,20 +32,15 @@ modules:
         path: com.geekbench.Geekbench6.desktop
       - type: extra-data
         filename: Geekbench-Linux.tar.gz
-        url: https://cdn.geekbench.com/Geekbench-6.4.0-Linux.tar.gz
-        sha256: 43833053774816178a292331cc205923c5e8168ada378d41b9119532125a50ac
-        size: 228079249
+        url: https://cdn.geekbench.com/Geekbench-6.7.1-Linux.tar.gz
+        sha256: 0ddca977deb6d9db4bd866485f9408e72e2869d0dea0737b18d4bfe472858ace
+        size: 228093838
         only-arches: [x86_64]
-        x-checker-data:
-          type: html
-          url: https://www.geekbench.com/download/linux/
-          version-pattern: You are downloading Geekbench ([0-9.]+) for Linux
-          url-template: https://cdn.geekbench.com/Geekbench-$version-Linux.tar.gz
       - type: extra-data
         filename: Geekbench-Linux.tar.gz
-        url: https://cdn.geekbench.com/Geekbench-6.4.0-LinuxARMPreview.tar.gz
-        sha256: 3d9f79c365f8b2a4cb646679c3282ded68d22b819f82d761fd408fa3ef18b1cf
-        size: 191801751
+        url: https://cdn.geekbench.com/Geekbench-6.7.1-LinuxARMPreview.tar.gz
+        sha256: 6e59acb83e6dea3671e2e295365fc37c40fdd280cdbddd50acf248910e14a0e3
+        size: 192088662
         only-arches: [aarch64]
       # An "apply_extra" script gets automatically executed after "extra-data" are downloaded
       # during installation. CWD is at /app/extra/.
